@@ -1,4 +1,4 @@
-button {
+.buttonStart, .buttonGithub {
     background-color: rgb(56, 102, 255);
     color: white;
     border: none;
@@ -8,7 +8,7 @@ button {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
-button:hover {
+.buttonStart:hover, .buttonGithub {
     transform: rotate(-5deg);
     transition: 0.3s;
 }

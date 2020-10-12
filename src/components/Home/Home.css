@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonTeacher {
+    width: 81px;
+}
+
+.buttonWebDev {
+    width: 132px;
+}
+
+.buttonTeacher, .buttonWebDev {
+    background-color: rgb(56, 102, 255);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.buttonTeacher:hover, .buttonWebDev:hover {
+    transform: rotate(-5deg);
+    transition: 0.3s;
+}
+
+.floating {   
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+} 
+  
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
