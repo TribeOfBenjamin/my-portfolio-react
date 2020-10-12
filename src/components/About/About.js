@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 function About() {
   return (
       <div>
-        <Header />
+        <h1>ABOUT!</h1>
       </div>
   );
 }

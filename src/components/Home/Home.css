@@ -6,11 +6,11 @@
 }
 
 .buttonTeacher {
-    width: 81px;
+    width: 102px;
 }
 
 .buttonWebDev {
-    width: 132px;
+    width: 152px;
 }
 
 .buttonTeacher, .buttonWebDev {
@@ -19,12 +19,18 @@
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    padding: 7px;
+    padding-top: 2px;
+    padding-bottom: 4px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
-.buttonTeacher:hover, .buttonWebDev:hover {
+.buttonWebDev:hover {
     transform: rotate(-5deg);
+    transition: 0.3s;
+}
+
+.buttonTeacher:hover {
+    transform: rotate(5deg);
     transition: 0.3s;
 }
 
