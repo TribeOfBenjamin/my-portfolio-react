@@ -1,8 +1,13 @@
-.container {
+
+.containerHome {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.hello {
+    margin-top: 200px;
 }
 
 .buttonTeacher {
