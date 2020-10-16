@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+.containerTitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 80px;
+    color: #1b243f;
+    margin: 100px 20px 10px;
+    padding: 0px;
+}
+
+.containerSubtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 20px 10px;
+}
+
+.subtitle {
+    color: #5B6278;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.containerButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.buttonAbout, .buttonPortfolio {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 48px;
+    margin: 0px 20px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 18px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.buttonPortfolio {
+    background-color: #0ab3af;
+}
+
+.buttonAbout {
+    background-color: #1b243f;
+}
