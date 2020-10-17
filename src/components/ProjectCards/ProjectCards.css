@@ -1,11 +1,23 @@
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
 .buttonStart, .buttonGithub {
-    background-color: rgb(56, 102, 255);
+    font-family: 'Roboto', Helvetica, sans-serif;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 10px;
     font-size: 15px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    box-shadow: 1px 3px 9px 3px rgba(0,0,0,0.11);
+}
+
+.buttonStart {
+    background-color: #0ab3af;
+}
+
+.buttonGithub {
+    background-color: #1b243f;
 }
 
 .buttonStart:hover {

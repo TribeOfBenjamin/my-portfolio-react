@@ -12,7 +12,7 @@ function DevHero() {
             </div>
             <div className="containerSubtitle">
                 <p className="subtitle">
-                    I bring ideas to life with creative design and solid development. Learn more by perusing this site or by reaching out via email.
+                    I bring ideas to life with creative design and solid development. Peruse this site to learn more about me and my work.
                 </p>
             </div>
 
