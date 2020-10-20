@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    
 }
 
 .title {
@@ -53,4 +54,20 @@
 
 .buttonAbout {
     background-color: #1b243f;
+}
+
+.buttonPortfolio:hover {
+    border: 2px solid #0ab3af;
+    color: #0ab3af;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 12px 41px;
+}
+
+.buttonAbout:hover {
+    border: 2px solid #1b243f;
+    color: #1b243f;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 12px 42px;
 }

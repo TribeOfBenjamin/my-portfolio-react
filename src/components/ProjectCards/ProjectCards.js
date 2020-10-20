@@ -7,80 +7,86 @@ import avatar from "./img_avatar.png";
 
 function ProjectCards() {
     return (
-        <div className="cardRow">
+        <div>
 
-            <div className="card">
-                <img className="cardImage" src={avatar} alt="Avatar" />
+            <h2 className="portfolioTitle">The Work</h2>
+
+            <div className="cardRow">
+
+                <div className="card">
+                    <img className="cardImage" src={avatar} alt="Avatar" />
                     <div className="cardContainer">
                         <h3 className="cardTitle"><b>John Doe</b></h3>
                         <button className="buttonStart"><FontAwesomeIcon className="icon fa-lg" icon={faPlay} />Start</button>
                         <button className="buttonGithub"><FontAwesomeIcon className="icon fa-lg" icon={faGithub} />GitHub Repository</button>
                         <p className="cardText">Architect & Engineer asdl;fkhasdf;lhasdlgjk;hasl;dkfhaslkdjfhaklsdfhaskdlfhaskldghaksdlgjhaskdlhasdklfhasdklfhaskldfhasdklfhaslkdjfhaskldjfhaskldjfhaksldjhasdlkfjh</p>
                     </div>
-            </div>
+                </div>
 
-            <div className="card">
-                <img className="cardImage" src={avatar} alt="Avatar" />
+                <div className="card">
+                    <img className="cardImage" src={avatar} alt="Avatar" />
                     <div className="cardContainer">
                         <h3 className="cardTitle"><b>John Doe</b></h3>
                         <button className="buttonStart"><FontAwesomeIcon className="icon fa-lg" icon={faPlay} />Start</button>
                         <button className="buttonGithub"><FontAwesomeIcon className="icon fa-lg" icon={faGithub} />GitHub Repository</button>
                         <p className="cardText">Architect & Engineer</p>
                     </div>
-            </div>
+                </div>
 
-            <div className="card">
-                <img className="cardImage" src={avatar} alt="Avatar" />
+                <div className="card">
+                    <img className="cardImage" src={avatar} alt="Avatar" />
                     <div className="cardContainer">
                         <h3 className="cardTitle"><b>John Doe</b></h3>
                         <button className="buttonStart"><FontAwesomeIcon className="icon fa-lg" icon={faPlay} />Start</button>
                         <button className="buttonGithub"><FontAwesomeIcon className="icon fa-lg" icon={faGithub} />GitHub Repository</button>
                         <p className="cardText">Architect & Engineer</p>
                     </div>
-            </div>
+                </div>
 
-            <div className="card">
-                <img className="cardImage" src={avatar} alt="Avatar" />
+                <div className="card">
+                    <img className="cardImage" src={avatar} alt="Avatar" />
                     <div className="cardContainer">
                         <h3 className="cardTitle"><b>John Doe</b></h3>
                         <button className="buttonStart"><FontAwesomeIcon className="icon fa-lg" icon={faPlay} />Start</button>
                         <button className="buttonGithub"><FontAwesomeIcon className="icon fa-lg" icon={faGithub} />GitHub Repository</button>
                         <p className="cardText">Architect & Engineer</p>
                     </div>
-            </div>
+                </div>
 
-            <div className="card">
-                <img className="cardImage" src={avatar} alt="Avatar" />
+                <div className="card">
+                    <img className="cardImage" src={avatar} alt="Avatar" />
                     <div className="cardContainer">
                         <h3 className="cardTitle"><b>John Doe</b></h3>
                         <button className="buttonStart"><FontAwesomeIcon className="icon fa-lg" icon={faPlay} />Start</button>
                         <button className="buttonGithub"><FontAwesomeIcon className="icon fa-lg" icon={faGithub} />GitHub Repository</button>
                         <p className="cardText">Architect & Engineer</p>
                     </div>
-            </div>
+                </div>
 
-            <div className="card">
-                <img className="cardImage" src={avatar} alt="Avatar" />
+                <div className="card">
+                    <img className="cardImage" src={avatar} alt="Avatar" />
                     <div className="cardContainer">
                         <h3 className="cardTitle"><b>John Doe</b></h3>
                         <button className="buttonStart"><FontAwesomeIcon className="icon fa-lg" icon={faPlay} />Start</button>
                         <button className="buttonGithub"><FontAwesomeIcon className="icon fa-lg" icon={faGithub} />GitHub Repository</button>
                         <p className="cardText">Architect & Engineer</p>
                     </div>
-            </div>
+                </div>
 
-            <div className="card">
-                <img className="cardImage" src={avatar} alt="Avatar" />
+                <div className="card">
+                    <img className="cardImage" src={avatar} alt="Avatar" />
                     <div className="cardContainer">
                         <h3 className="cardTitle"><b>John Doe</b></h3>
                         <button className="buttonStart"><FontAwesomeIcon className="icon fa-lg" icon={faPlay} />Start</button>
                         <button className="buttonGithub"><FontAwesomeIcon className="icon fa-lg" icon={faGithub} />GitHub Repository</button>
                         <p className="cardText">Architect & Engineer</p>
                     </div>
+                </div>
+
             </div>
 
         </div>
-  );
+    );
 }
 
 export default ProjectCards;

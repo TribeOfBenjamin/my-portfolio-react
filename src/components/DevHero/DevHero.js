@@ -5,14 +5,16 @@ import "./DevHero.css";
 function DevHero() {
     return (
         <div>
+
             <div className="containerTitle">
                 <h1 className="title">
                     Passionate Development
                 </h1>
             </div>
+
             <div className="containerSubtitle">
                 <p className="subtitle">
-                    I bring ideas to life with creative design and solid development. Peruse this site to learn more about me and my work.
+                    I bring ideas to life with creative design and solid development. Peruse this site to learn more about me and my work. Hello dad! Tom Brady!
                 </p>
             </div>
 
