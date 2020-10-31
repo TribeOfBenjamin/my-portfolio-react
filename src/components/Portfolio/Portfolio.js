@@ -3,7 +3,7 @@ import ProjectCards from "../ProjectCards/ProjectCards";
 import Header from "../Header/Header";
 import DevHero from "../DevHero/DevHero";
 import Spacer150 from "../Spacers/Spacer150";
-import Spacer300 from "../Spacers/Spacer300";
+import DownArrow from "../Spacers/DownArrow";
 
 function Portfolio() {
   return (
@@ -11,7 +11,7 @@ function Portfolio() {
         <Header />
         <Spacer150 />
         <DevHero />
-        <Spacer300 />
+        <DownArrow />
         <ProjectCards />
       </div>
   );

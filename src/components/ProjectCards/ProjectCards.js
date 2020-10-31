@@ -7,7 +7,7 @@ import avatar from "./img_avatar.png";
 
 function ProjectCards() {
     return (
-        <div>
+        <div className="portfolioSection">
 
             <h2 className="portfolioTitle">The Work</h2>
 

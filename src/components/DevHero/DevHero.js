@@ -14,7 +14,7 @@ function DevHero() {
 
             <div className="containerSubtitle">
                 <p className="subtitle">
-                    I bring ideas to life with creative design and solid development. Peruse this site to learn more about me and my work. Hello dad! Tom Brady!
+                    Bringing ideas to life with creative design and solid development. Look around to see my work and learn more.
                 </p>
             </div>
 

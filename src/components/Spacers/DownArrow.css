@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #1b243f;
+}
+
+.downArrow {
+    height: 0;
+    width: 0;
+    margin: auto;
+    border-bottom: 100px solid transparent;
+    border-left: 1000px solid transparent;
+    border-right: 1000px solid transparent;
+    border-top: 100px solid #ffffff;
+}
